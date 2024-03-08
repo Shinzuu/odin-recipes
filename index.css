@@ -1,0 +1,30 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+
+h1, h2{
+    text-align: center;
+    color: rgb(223, 107, 40)    
+}
+li, p {
+    font-size: smaller;
+    padding: 6px;
+    font-style: italic;
+    color: rgb(121, 69, 69);
+}
+a {
+    color: rgb(197, 115, 8);
+    font-size: larger;
+
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 440px;
+    width: auto;
+
+}
