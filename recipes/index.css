@@ -5,7 +5,9 @@
 
 h1, h2{
     text-align: center;
-    color: rgb(223, 107, 40)    
+    color: rgb(223, 107, 40);
+    margin: auto;
+    padding: 3px;  
 }
 li, p {
     font-size: smaller;
@@ -20,11 +22,18 @@ a {
 }
 
 img {
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     height: 440px;
     width: auto;
 
+}
+
+h1 {
+    color: rgb(182, 51, 28);
+}
+li {
+    text-align: left;
 }
