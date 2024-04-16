@@ -1,6 +1,8 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: beige;
+    max-width: 960px;
+    margin: auto;
 }
 
 h1, h2{
@@ -10,7 +12,7 @@ h1, h2{
     padding: 3px;  
 }
 li, p {
-    font-size: smaller;
+    font-size: 16px;
     padding: 6px;
     font-style: italic;
     color: rgb(121, 69, 69);
@@ -39,4 +41,25 @@ h1 {
 p {
     padding: 20px;
     margin: 10px;
+}
+iframe {
+    width: 400px;
+    height: 500px;
+    border: none;    
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#title {
+    font-size: 90px;
+    font-weight: bold; 
+    color: #FF5733; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 4px; 
+    text-transform: uppercase;
 }
